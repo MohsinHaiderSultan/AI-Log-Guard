@@ -30,7 +30,7 @@ Developed as a **Final Year Project (FYP)** at **COMSATS University Islamabad**,
 ## 🎬 Demo
 
 <p align="center">
-  <img src="FYP Project/assets/demo.gif" alt="AI Log Guard Demo" width="700"/>
+  <img src="FYP Project/assets/video.mp4" alt="AI Log Guard Demo" width="700"/>
 </p>
 
 <p align="center">
@@ -41,9 +41,9 @@ Developed as a **Final Year Project (FYP)** at **COMSATS University Islamabad**,
 
 ## 📸 Screenshots
 
-| Login Page | Dashboard | Anomaly Report |
-|------------|-----------|----------------|
-| <img src="FYP Project/assets/screenshot1.png" alt="Login Page" width="300"/> | <img src="FYP Project/assets/screenshot2.png" alt="Dashboard" width="300"/> | <img src="FYP Project/assets/screenshot3.png" alt="Anomaly Report" width="300"/> |
+| Dashboard | live Monitor | Anomaly Report | Threat Intel |
+|------------|-----------|----------------|----------------|
+| <img src="FYP Project/assets/Screenshot1.png" alt="Login Page" width="300"/> | <img src="FYP Project/assets/Screenshot2.png" alt="Dashboard" width="300"/> | <img src="FYP Project/assets/Screenshot (33).png" alt="Anomaly Report" width="300"/> |<img src="FYP Project/assets/Screenshot (32).png" alt="Threat Intel" width="300"/> |
 
 
 ---
