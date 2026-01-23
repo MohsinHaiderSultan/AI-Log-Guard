@@ -100,8 +100,9 @@ LLM_PROMPT_TEMPLATE_PATH = os.path.join(ASSETS_DIR, "security-prompt.txt")
 
 
 # --- LLM Configuration (OpenRouter) ---
-LLM_API_KEY = "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" 
-LLM_BASE_URL = "https://openrouter.ai/api/v1"
+LLM_API_KEY = "Enter Your key here" 
+LLM_BASE_URL = "https://openrouter.ai/api/v1
+"
 
 LLM_MODEL_NAME = "google/gemini-2.0-flash-exp:free"
 
@@ -116,4 +117,5 @@ LLM_HEADERS = {
 
 # --- DATABASE PATH ---
 DB_PATH = os.path.join(APP_DIR, "ai_logguard.db")
+
 # ---------------------------------------------------------------------
