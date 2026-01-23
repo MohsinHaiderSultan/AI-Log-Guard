@@ -1,21 +1,22 @@
-<p align="center">
-  <img src="https://img.icons8.com/fluency/100/shield-with-eye.png" alt="AI Log Guard Logo" width="100" />
-</p>
+<h1 align="center"><b>🛡️ AI Log Guard</b></h1>
 
-<h1 align="center">AI Log Guard</h1>
+<h3 align="center" style="color:#36BCF7;">
+  Intelligent Anomaly Detection & Automated Threat Response System
+</h3>
 
 <p align="center">
-  <strong>Intelligent Anomaly Detection & Automated Threat Response System</strong>
+  🔐 <b>AI-Powered Security</b> &nbsp;&bull;&nbsp; 📊 <b>Real-Time Monitoring</b> &nbsp;&bull;&nbsp; ⚡ <b>Automated Response</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.13.7-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Algorithm-Isolation%20Forest-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LLM-Gemini%202.0%20Flash-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" />
 </p>
 
----
+<hr style="border:1px solid #36BCF7; width:60%; margin:auto;" />
+
 
 ## 📖 Project Abstract
 
@@ -29,7 +30,7 @@ Developed as a **Final Year Project (FYP)** at **COMSATS University Islamabad**,
 ## 🎬 Demo
 
 <p align="center">
-  <img src="assets/demo.gif" alt="AI Log Guard Demo" width="700"/>
+  <img src="FYP Project/assets/demo.gif" alt="AI Log Guard Demo" width="700"/>
 </p>
 
 <p align="center">
@@ -42,7 +43,7 @@ Developed as a **Final Year Project (FYP)** at **COMSATS University Islamabad**,
 
 | Login Page | Dashboard | Anomaly Report |
 |------------|-----------|----------------|
-| <img src="assets/screenshot1.png" alt="Login Page" width="300"/> | <img src="assets/screenshot2.png" alt="Dashboard" width="300"/> | <img src="assets/screenshot3.png" alt="Anomaly Report" width="300"/> |
+| <img src="FYP Project/assets/screenshot1.png" alt="Login Page" width="300"/> | <img src="FYP Project/assets/screenshot2.png" alt="Dashboard" width="300"/> | <img src="FYP Project/assets/screenshot3.png" alt="Anomaly Report" width="300"/> |
 
 
 ---
@@ -110,33 +111,38 @@ graph TD
 ---
 
 ## 📁 Project Structure
-```text
-FYP PROJECT
-├── 🎨 assets/             # Branding, high-DPI UI icons, and demo media
-├── 💾 backups/            # Local data recovery and log archives
-├── ⚡ cache/              # Temporary buffers and IP reputation cache
-├── ⚙️ config/             # Environment variables and API configurations
-├── 📊 data/               # Input log datasets (Simulated & Real-world)
-├── 📜 reports/            # Generated security audits (PDF & CSV)
-│
-├── 🧠 src/
-│   ├── 🛠️ backend/
-│   │   ├── core_logic.py   # The "Brain": Anomaly detection & rule execution
-│   │   ├── database_mgr.py # Singleton SQLite transaction manager
-│   │   └── llm_service.py  # Gemini 2.0 forensic analysis engine
-│   │
-│   ├── 🎮 controller/
-│   │   └── main.py         # Application controller & page navigation
-│   │
-│   ├── 🖥️ ui/
-│   │   ├── components/     # Custom modern themed widgets
-│   │   └── pages/          # Dashboard, Live Monitor, and Forensic views
-│   │
-│   └── 🔧 utils/           # Helper functions for regex and normalization
-│
-├── 🌍 config.py           # Global system constants
-├── 🛡️ AiLogGuard.py       # Main Application Entry Point
-└── 📄 README.md           # Documentation & Project Sentinel
+```mermaid
+graph TD
+    Root[🛡️ AI-Log-Guard Repository]:::root
+    Root --> RM[📄 README.md]:::file
+    Root --> FYP[📁 FYP Project]:::folder
+
+    FYP --> A[🎨 assets]:::folder
+    FYP --> B[💾 backups]:::folder
+    FYP --> C[⚡ cache]:::folder
+    FYP --> D[📊 data]:::folder
+    FYP --> E[📜 reports]:::folder
+    FYP --> F[🧠 src]:::folder
+
+    %% Sub-folders
+    F --> F1[🛠️ backend]:::folder
+    F --> F2[🎮 controller]:::folder
+    F --> F3[🖥️ ui]:::folder
+    F --> F4[🔧 utils]:::folder
+
+    %% UI Details
+    F3 --> F31[components]:::folder
+    F3 --> F32[pages]:::folder
+
+    %% Main Files
+    FYP --> G[🌍 config.py]:::file
+    FYP --> H[🛡️ AiLogGuard.py]:::file
+    FYP --> I[📄 requirements.txt]:::file
+
+    %% Styles
+    classDef root fill:#1a1b26,stroke:#7aa2f7,stroke-width:2px,color:#fff;
+    classDef folder fill:#24283b,stroke:#414868,stroke-width:1px,color:#c0caf5;
+    classDef file fill:#16161e,stroke:#3b4261,stroke-width:1px,color:#787c99;
 ```
 
 
