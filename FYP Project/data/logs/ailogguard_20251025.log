@@ -1,0 +1,23 @@
+2025-10-25 04:05:46,878 - INFO - Application starting...
+2025-10-25 04:05:46,902 - INFO - Database initialized successfully
+2025-10-25 04:05:46,902 - INFO - Settings loaded - Theme: Dark, Color: blue
+2025-10-25 04:05:46,904 - INFO - Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]
+2025-10-25 04:05:46,904 - INFO - Operating System: win32
+2025-10-25 04:05:49,178 - ERROR - Critical error in main application: Traceback (most recent call last):
+  File "c:\Users\Mohsin Haider Sultan\Desktop\BCS-046\Project Code\mainProject\main.py", line 159, in main
+    db.log_action(
+    ~~~~~~~~~~~~~^
+        action="APPLICATION_START",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        details=startup_details
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\Mohsin Haider Sultan\Desktop\BCS-046\Project Code\mainProject\database_manager.py", line 178, in log_action
+    self._exec("INSERT INTO audit_log (user_id, action, details) VALUES (?, ?, ?)", (user_id, action, details), commit=True)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Mohsin Haider Sultan\Desktop\BCS-046\Project Code\mainProject\database_manager.py", line 41, in _exec
+    cur.execute(sql, params)
+    ~~~~~~~~~~~^^^^^^^^^^^^^
+sqlite3.ProgrammingError: Error binding parameter 3: type 'dict' is not supported
+

@@ -1,0 +1,14 @@
+--- AI LogGuard Report (PDF) ---
+
+Title: AI LogGuard Report
+Type: Security Audit
+Date Range: 2025-10-19 to 2025-10-26
+Generated On: 2025-10-26T04:47:25.945644
+Format: PDF
+
+Status: SIMULATED CONTENT
+Real data export is available for CSV format only.
+
+-- Simulated Data --
+- 2025-10-26T04:47:25.945650 [ERROR] Placeholder error 1
+- 2025-10-26T03:47:25.945653 [WARN] Placeholder warning 2
