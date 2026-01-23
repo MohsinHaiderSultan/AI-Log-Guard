@@ -30,7 +30,7 @@ Developed as a **Final Year Project (FYP)** at **COMSATS University Islamabad**,
 ## 🎬 Demo
 
 <p align="center">
-  <img src="FYP Project/assets/video.mp4" alt="AI Log Guard Demo" width="700"/>
+  <img src="FYP Project/assets/video.gif" alt="AI Log Guard Demo" width="700"/>
 </p>
 
 <p align="center">
@@ -111,43 +111,34 @@ graph TD
 ---
 
 ## 📁 Project Structure
-```mermaid
-graph TD
-    Root[🛡️ AI-Log-Guard Repository]:::root
-    Root --> RM[📄 README.md]:::file
-    Root --> FYP[📁 FYP Project]:::folder
-
-    FYP --> A[🎨 assets]:::folder
-    FYP --> B[💾 backups]:::folder
-    FYP --> C[⚡ cache]:::folder
-    FYP --> D[📊 data]:::folder
-    FYP --> E[📜 reports]:::folder
-    FYP --> F[🧠 src]:::folder
-
-    %% Sub-folders
-    F --> F1[🛠️ backend]:::folder
-    F --> F2[🎮 controller]:::folder
-    F --> F3[🖥️ ui]:::folder
-    F --> F4[🔧 utils]:::folder
-
-    %% UI Details
-    F3 --> F31[components]:::folder
-    F3 --> F32[pages]:::folder
-
-    %% Main Files
-    FYP --> G[🌍 config.py]:::file
-    FYP --> H[🛡️ AiLogGuard.py]:::file
-    FYP --> I[📄 requirements.txt]:::file
-
-    %% Styles
-    classDef root fill:#1a1b26,stroke:#7aa2f7,stroke-width:2px,color:#fff;
-    classDef folder fill:#24283b,stroke:#414868,stroke-width:1px,color:#c0caf5;
-    classDef file fill:#16161e,stroke:#3b4261,stroke-width:1px,color:#787c99;
+```text
+FYP PROJECT
+├── 🎨 assets/             # Branding, high-DPI UI icons, and demo media  
+├── 💾 backups/            # Local data recovery and log archives  
+├── ⚡ cache/              # Temporary buffers and IP reputation cache  
+├── ⚙️ config/             # Environment variables and API configurations  
+├── 📊 data/               # Input log datasets (Simulated & Real-world)  
+├── 📜 reports/            # Generated security audits (PDF & CSV)  
+│
+├── 🧠 src/  
+│   ├── 🛠️ backend/  
+│   │   ├── core_logic.py      # The "Brain": Anomaly detection & rule execution  
+│   │   ├── database_mgr.py    # Singleton SQLite transaction manager  
+│   │   └── llm_service.py     # Gemini 2.0 forensic analysis engine  
+│   │
+│   ├── 🎮 controller/  
+│   │   └── main.py            # Application controller & page navigation  
+│   │
+│   ├── 🖥️ ui/  
+│   │   ├── components/        # Custom modern themed widgets  
+│   │   └── pages/             # Dashboard, Live Monitor, and Forensic views  
+│   │
+│   └── 🔧 utils/              # Helper functions for regex and normalization  
+│
+├── 🌍 config.py               # Global system constants  
+├── 🛡️ AiLogGuard.py           # Main Application Entry Point  
+└── 📄 README.md               # Documentation & Project Sentinel
 ```
-
-
-
----
 
 ## 🚀 Getting Started
 
@@ -201,30 +192,66 @@ python AiLogGuard.py
 
 ## 👨‍💻 Author
 
-## 👨‍💻 Author
-
 <table align="center">
   <tr>
-    <td align="center">
+    <!-- LEFT: PROFILE CARD -->
+    <td align="center" width="180">
       <a href="https://github.com/MohsinHaiderSultan">
-        <img src="https://github.com/MohsinHaiderSultan.png?size=120" width="120px" alt="Mohsin Haider Sultan"/>
-        <br />
+        <img src="https://github.com/MohsinHaiderSultan.png?size=120"
+             width="120"
+             style="border-radius:50%; border: 3px solid #36BCF7; padding:2px;"
+             alt="Mohsin Haider Sultan"/>
+        <br /><br />
         <sub><b>Mohsin Haider Sultan</b></sub>
       </a>
       <br /><br />
-      <a href="https://www.linkedin.com/in/mohsin-haider-sultan">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
-      </a>
-      <a href="https://github.com/MohsinHaiderSultan">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
-      </a>
-      <a href="mailto:mohsinhaidersultan@gmail.com">
-        <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/>
-      </a>
+      <img src="https://img.shields.io/badge/Project%20Lead-AI%20%26%20Cybersecurity-36BCF7?style=flat-square&logo=probot&logoColor=white" />
+    </td>
+    <!-- RIGHT: CONTACT + CTA -->
+    <td align="center" width="420">
+      <p>
+        <b style="font-size:16px;">🚀 Connect with the Project Lead</b><br/>
+        <sub>AI • Cybersecurity • Research • Development</sub>
+      </p>
+      <br/>
+      <table align="center">
+        <tr>
+          <td align="center" width="65">
+            <a href="https://www.linkedin.com/in/mohsin-haider-sultan-498b5b251">
+              <img src="https://www.readmecodegen.com/api/social-icon?name=linkedin&shape=circle&theme=brand"
+                   width="38" height="38" alt="LinkedIn"/>
+            </a>
+          </td>
+          <td align="center" width="65">
+            <a href="mailto:mohsinhaidersultan001@gmail.com">
+              <img src="https://www.readmecodegen.com/api/social-icon?name=gmail&shape=circle&theme=brand"
+                   width="38" height="38" alt="Gmail"/>
+            </a>
+          </td>
+          <td align="center" width="65">
+            <a href="https://instagram.com/mohsin_haider_sultan_gilgiti">
+              <img src="https://www.readmecodegen.com/api/social-icon?name=instagram&shape=circle&theme=brand"
+                   width="38" height="38" alt="Instagram"/>
+            </a>
+          </td>
+          <td align="center" width="65">
+            <a href="https://mohsinhaidersultan.github.io/Portfolio/">
+              <img src="https://img.icons8.com/ios-filled/100/36BCF7/user-male-circle.png"
+                   width="38" height="38" alt="Portfolio"/>
+            </a>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
 
+<br/>
 
-<p align="center"> Developed at <b>COMSATS University Islamabad</b> <br /> &copy; 2026 Mohsin Haider Sultan & Team. All Rights Reserved. </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Developed%20at-COMSATS%20University%20Islamabad%20(Sahiwal)-004C97?style=for-the-badge&logo=google-classroom&logoColor=white" />
+  <br /><br />
+  <img src="https://img.shields.io/badge/%C2%A9%202026-Mohsin%20Haider%20Sultan%20%26%20Team-1a1b26?style=flat-square&logo=github&logoColor=white" />
+  <br />
+</p>
 
