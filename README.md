@@ -37,6 +37,7 @@ Developed as a **Final Year Project (FYP)** at **COMSATS University Islamabad**,
   <em>Real-time log monitoring, anomaly detection, and automated response in action</em>
 </p>
 
+
 ---
 
 ## 📸 Screenshots
