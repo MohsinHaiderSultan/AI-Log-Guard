@@ -1,4 +1,4 @@
-<h1 align="center"><b>🛡️ AI Log Guard</b></h1>
+<h1 align="center"><b>🛡️ AI LogGuard</b></h1>
 
 <h3 align="center" style="color:#36BCF7;">
   Intelligent Anomaly Detection & Automated Threat Response System
